@@ -43,8 +43,6 @@ flowchart TD
 
 ## Project Structure
 
-## Project Structure
-
 ```text
 structured-data-extractor/
 ├── src/
@@ -86,7 +84,7 @@ Create a `.env` file in the project root:
 OPENAI_API_KEY=your_api_key_here
 ```
 
-Keep the real API key private. Do not commit `.env` to GitHub.
+Replace the placeholder with your own API key locally. Never publish the real key.
 
 ## Run the Application
 
@@ -108,7 +106,7 @@ The Pydantic schema checks required invoice fields, supported currencies, positi
 
 ## AI Code Audit
 
-See `ai_prompt_log.md` for actual coding issues, fixes, and lessons learned.
+See `ai_prompt_log.md` for coding issues, fixes, and lessons learned.
 
 ## Current Limitations
 
